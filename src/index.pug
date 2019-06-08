@@ -1,0 +1,9 @@
+doctype html
+
+#app
+  input(v-model='user')
+  p {{latitude}}
+  p {{longitude}}
+  button(v-on:click='favoriteSendData') favorite
+  button(v-on:click='routeSendData') route
+script(src="./app.js")
