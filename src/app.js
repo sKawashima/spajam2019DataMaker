@@ -1,4 +1,5 @@
 import Vue from 'vue/dist/vue'
+import './style.sass'
 
 const app = new Vue({
   el: '#app',
